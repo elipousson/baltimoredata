@@ -12,7 +12,7 @@ A data frame with 62552 rows and 9 variables:
   \item{\code{indicator}}{Indicator name}
   \item{\code{value}}{Value of indicator}
   \item{\code{label}}{Indicator label}
-  \item{\code{section}}{Vital Signs section}
+  \item{\code{section}}{Vital Signs section, matching one of eight topic areas}
 }
 }
 \source{
@@ -22,10 +22,10 @@ A data frame with 62552 rows and 9 variables:
 vital_signs_2010_2018
 }
 \description{
-The Baltimore Neighborhood Indicator Alliance describes the Vital Signs are
-"data-points compiled from a variety of reliable sources that 'take the
-pulse' of Baltimore’s neighborhoods." This data is based on the Vital Signs
-Data Tables (2010-2018) master Excel file containing all Vital Signs
+The Baltimore Neighborhood Indicator Alliance (BNIA) describes the Vital
+Signs are "data-points compiled from a variety of reliable sources that 'take
+the pulse' of Baltimore’s neighborhoods." This data set is based on the Vital
+Signs Data Tables (2010-2018) master Excel file containing all Vital Signs
 indicators, by year of release.
 }
 \details{
@@ -34,10 +34,8 @@ Baltimore City and all 55 of the Community Statistical Areas (CSAs). Due to
 COVID-19, the publication of the Vital Signs 18 indicators has been staggered
 and this data does not yet contain full housing or education data. CSAs with
 missing data in the Excel file appear as `NA` values in this dataset.
-
-DETAILS
 }
 \seealso{
-* [BNIA Vital Signs Open Data Portal](https://vital-signs-bniajfi.hub.arcgis.com/)
+\href{https://vital-signs-bniajfi.hub.arcgis.com/}{BNIA Vital Signs Open Data Portal}
 }
 \keyword{datasets}

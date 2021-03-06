@@ -16,6 +16,9 @@ A data frame with 177 rows and 7 variables:
   \item{\code{years_available}}{Years available}
 }
 }
+\source{
+\url{https://bniajfi.org/vital_signs/}
+}
 \usage{
 vital_signs_indicators
 }

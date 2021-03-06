@@ -1,0 +1,5 @@
+template:
+  package: preferably
+home:
+  title: A data access package for Baltimore, Maryland.
+description: Data related to Baltimore, Maryland.
