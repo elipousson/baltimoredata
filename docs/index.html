@@ -19,24 +19,25 @@
     );
   }
 </script><title>A data access package for Baltimore, Maryland. • baltimoredata</title>
-<!-- jquery --><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script><!-- Bootstrap --><script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha256-nuL8/2cJ5NDSSwnKD8VqreErSWHtnEP9E7AySL+1ev4=" crossorigin="anonymous"></script><!-- Flatly Theme - Light  --><link id="css-light" rel="stylesheet" href="https://bootswatch.com/3/flatly/bootstrap.css" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)">
-<!-- Darkly Theme - Dark --><link id="css-dark" rel="stylesheet" href="https://bootswatch.com/3/darkly/bootstrap.css" media="(prefers-color-scheme: dark)">
-<!-- preferably CSS --><link rel="stylesheet" href="preferably.css">
-<link id="css-code-light" rel="stylesheet" href="code-color-scheme-light.css" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)">
-<link id="css-code-dark" rel="stylesheet" href="code-color-scheme-dark.css" media="(prefers-color-scheme: dark)">
-<!-- bootstrap-toc --><link rel="stylesheet" href="bootstrap-toc.css">
+<!-- jquery --><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script><!-- Bootstrap --><script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha256-nuL8/2cJ5NDSSwnKD8VqreErSWHtnEP9E7AySL+1ev4=" crossorigin="anonymous"></script><!-- bootstrap-toc --><link rel="stylesheet" href="bootstrap-toc.css">
 <script src="bootstrap-toc.js"></script><!-- Font Awesome icons --><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/v4-shims.min.css" integrity="sha256-wZjR52fzng1pJHwx4aV2AO3yyTOXrcDW7jBpJtTwVxw=" crossorigin="anonymous">
 <!-- clipboard.js --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><!-- headroom.js --><script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.11.0/headroom.min.js" integrity="sha256-AsUX4SJE1+yuDu5+mAVzJbuYNPHj/WroHuZ8Ir/CkE0=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.11.0/jQuery.headroom.min.js" integrity="sha256-ZX/yNShbjqsohH1k95liqY9Gd8uOiE1S4vZc+9KQ1K4=" crossorigin="anonymous"></script><!-- pkgdown --><link href="pkgdown.css" rel="stylesheet">
 <script src="pkgdown.js"></script><meta property="og:title" content="A data access package for Baltimore, Maryland.">
-<meta property="og:description" content="More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.">
+<meta property="og:description" content="This package provides access to a small number of spatial and
+    nonspatial datasets related to Baltimore City, Maryland.">
 <!-- mathjax --><script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" integrity="sha256-nvJJv9wWKEm88qvoQl9ekL2J+k/RWIsaSScxxlsrv8k=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/config/TeX-AMS-MML_HTMLorMML.js" integrity="sha256-84DKXVJXs0/F8OTMzX4UR909+jtl4G7SPypPavF+GfA=" crossorigin="anonymous"></script><!--[if lt IE 9]>
 <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
 <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-<![endif]-->
+<![endif]--><!-- Flatly Theme - Light  --><link id="css-light" rel="stylesheet" href="https://bootswatch.com/3/flatly/bootstrap.css" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)">
+<!-- Darkly Theme - Dark --><link id="css-dark" rel="stylesheet" href="https://bootswatch.com/3/darkly/bootstrap.css" media="(prefers-color-scheme: dark)">
+<!-- preferably CSS --><link rel="stylesheet" href="preferably.css">
+<link id="css-code-light" rel="stylesheet" href="code-color-scheme-light.css" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)">
+<link id="css-code-dark" rel="stylesheet" href="code-color-scheme-dark.css" media="(prefers-color-scheme: dark)">
 </head>
 <body data-spy="scroll" data-target="#toc">
+    
+
     <div class="container template-home">
       <header><div class="navbar navbar-default navbar-fixed-top" role="navigation">
   <div class="container">
@@ -49,18 +50,12 @@
       </button>
       <span class="navbar-brand">
         <a class="navbar-link" href="index.html">baltimoredata</a>
-        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="Released version">0.1.0</span>
+        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="">0.1.0</span>
       </span>
     </div>
 
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
-<li>
-  <a href="index.html">
-    <span class="fas fa-home fa-lg"></span>
-     
-  </a>
-</li>
 <li>
   <a href="reference/index.html">Reference</a>
 </li>
@@ -77,26 +72,26 @@
 
       </header><div class="row">
   <div class="contents col-md-9">
-<div id="baltimoredata" class="section level1">
-<div class="page-header"><h1 class="hasAnchor">
-<a href="#baltimoredata" class="anchor"></a>baltimoredata</h1></div>
+<div class="section level1">
+<div class="page-header"><h1 id="baltimoredata">baltimoredata<a class="anchor" aria-label="anchor" href="#baltimoredata"></a>
+</h1></div>
 <!-- badges: start -->
 <!-- badges: end -->
-<p>The goal of baltimoredata is to make data related to Baltimore City, Maryland more accessible and consistent for R users. The package is designed to work well with the <a href="https://elipousson.github.io/mapbaltimore/">mapbaltimore</a> and <a href="https://elipousson.github.io/bcpss/">bcpss</a> packages that I am also developing.</p>
+<p>The goal of baltimoredata is to make data related to Baltimore City, Maryland more accessible and consistent for R users. The package is designed to work well with the <a href="https://elipousson.github.io/mapbaltimore/" class="external-link">mapbaltimore</a> and <a href="https://elipousson.github.io/bcpss/" class="external-link">bcpss</a> packages that I am also developing.</p>
 <p>Currently, this package only includes two data sets: the Baltimore Neighborhood Indicators Alliance (BNIA) Vital Signs data between 2010 and 2018 and the definitions for the variables included in the Vital Signs data.</p>
-<div id="installation" class="section level2">
-<h2 class="hasAnchor">
-<a href="#installation" class="anchor"></a>Installation</h2>
+<div class="section level2">
+<h2 id="installation">Installation<a class="anchor" aria-label="anchor" href="#installation"></a>
+</h2>
 <p>You can install baltimoredata with the remotes package:</p>
 <div class="sourceCode" id="cb1"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span class="fu">remotes</span><span class="fu">::</span><span class="fu"><a href="https://remotes.r-lib.org/reference/install_github.html">install_github</a></span><span class="op">(</span><span class="st">"elipousson/baltimoredata"</span><span class="op">)</span></code></pre></div>
+<code class="sourceCode R"><span class="fu">remotes</span><span class="fu">::</span><span class="fu"><a href="https://remotes.r-lib.org/reference/install_github.html" class="external-link">install_github</a></span><span class="op">(</span><span class="st">"elipousson/baltimoredata"</span><span class="op">)</span></code></pre></div>
 </div>
-<div id="example" class="section level2">
-<h2 class="hasAnchor">
-<a href="#example" class="anchor"></a>Example</h2>
+<div class="section level2">
+<h2 id="example">Example<a class="anchor" aria-label="anchor" href="#example"></a>
+</h2>
 <div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va">baltimoredata</span><span class="op">)</span>
-<span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://dplyr.tidyverse.org">dplyr</a></span><span class="op">)</span>
+<code class="sourceCode R"><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va">baltimoredata</span><span class="op">)</span>
+<span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://dplyr.tidyverse.org" class="external-link">dplyr</a></span><span class="op">)</span>
 <span class="co">#&gt; </span>
 <span class="co">#&gt; Attaching package: 'dplyr'</span>
 <span class="co">#&gt; The following objects are masked from 'package:stats':</span>
@@ -105,25 +100,25 @@
 <span class="co">#&gt; The following objects are masked from 'package:base':</span>
 <span class="co">#&gt; </span>
 <span class="co">#&gt;     intersect, setdiff, setequal, union</span>
-<span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://ggplot2.tidyverse.org">ggplot2</a></span><span class="op">)</span></code></pre></div>
+<span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://ggplot2.tidyverse.org" class="external-link">ggplot2</a></span><span class="op">)</span></code></pre></div>
 <p>The BNIA Vital Signs data is useful for making comparisons between different areas of the city, between multiple years, and multiple related variables. For example, see the beeswarm plot below comparing the BNIA affordability indices for rent and mortgage:</p>
 <div class="sourceCode" id="cb3"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span class="va">vital_signs_2010_2018</span> <span class="op">%&gt;%</span> 
-  <span class="fu"><a href="https://dplyr.tidyverse.org/reference/filter.html">filter</a></span><span class="op">(</span><span class="va">indicator</span> <span class="op">%in%</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="st">"affordability_index_mortgage"</span>, <span class="st">"affordability_index_rent"</span><span class="op">)</span>,
-         <span class="va">year</span> <span class="op">==</span> <span class="fl">2015</span><span class="op">)</span> <span class="op">%&gt;%</span> 
-  <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/ggplot.html">ggplot</a></span><span class="op">(</span><span class="fu"><a href="https://ggplot2.tidyverse.org/reference/aes.html">aes</a></span><span class="op">(</span>x <span class="op">=</span> <span class="va">label</span>, y <span class="op">=</span> <span class="va">value</span>, color <span class="op">=</span> <span class="va">value</span><span class="op">)</span><span class="op">)</span> <span class="op">+</span>
-  <span class="fu">ggbeeswarm</span><span class="fu">::</span><span class="fu"><a href="https://rdrr.io/pkg/ggbeeswarm/man/geom_quasirandom.html">geom_quasirandom</a></span><span class="op">(</span>alpha <span class="op">=</span> <span class="fl">0.5</span>, size <span class="op">=</span> <span class="fl">3</span><span class="op">)</span> <span class="op">+</span>
-  <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/coord_flip.html">coord_flip</a></span><span class="op">(</span><span class="op">)</span> <span class="op">+</span>
-  <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/ggtheme.html">theme_minimal</a></span><span class="op">(</span><span class="op">)</span> <span class="op">+</span>
-  <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/scale_viridis.html">scale_color_viridis_c</a></span><span class="op">(</span>guide <span class="op">=</span> <span class="cn">FALSE</span><span class="op">)</span> <span class="op">+</span>
-  <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/labs.html">labs</a></span><span class="op">(</span>title <span class="op">=</span> <span class="st">"Rent and mortgage affordability indices, 2015"</span>,
+<code class="sourceCode R"><span class="va">vital_signs_2010_2018</span> <span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html" class="external-link">%&gt;%</a></span> 
+  <span class="fu"><a href="https://dplyr.tidyverse.org/reference/filter.html" class="external-link">filter</a></span><span class="op">(</span><span class="va">indicator</span> <span class="op"><a href="https://rdrr.io/r/base/match.html" class="external-link">%in%</a></span> <span class="fu"><a href="https://rdrr.io/r/base/c.html" class="external-link">c</a></span><span class="op">(</span><span class="st">"affordability_index_mortgage"</span>, <span class="st">"affordability_index_rent"</span><span class="op">)</span>,
+         <span class="va">year</span> <span class="op">==</span> <span class="fl">2015</span><span class="op">)</span> <span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html" class="external-link">%&gt;%</a></span> 
+  <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/ggplot.html" class="external-link">ggplot</a></span><span class="op">(</span><span class="fu"><a href="https://ggplot2.tidyverse.org/reference/aes.html" class="external-link">aes</a></span><span class="op">(</span>x <span class="op">=</span> <span class="va">label</span>, y <span class="op">=</span> <span class="va">value</span>, color <span class="op">=</span> <span class="va">value</span><span class="op">)</span><span class="op">)</span> <span class="op">+</span>
+  <span class="fu">ggbeeswarm</span><span class="fu">::</span><span class="fu"><a href="https://rdrr.io/pkg/ggbeeswarm/man/geom_quasirandom.html" class="external-link">geom_quasirandom</a></span><span class="op">(</span>alpha <span class="op">=</span> <span class="fl">0.5</span>, size <span class="op">=</span> <span class="fl">3</span><span class="op">)</span> <span class="op">+</span>
+  <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/coord_flip.html" class="external-link">coord_flip</a></span><span class="op">(</span><span class="op">)</span> <span class="op">+</span>
+  <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/ggtheme.html" class="external-link">theme_minimal</a></span><span class="op">(</span><span class="op">)</span> <span class="op">+</span>
+  <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/scale_viridis.html" class="external-link">scale_color_viridis_c</a></span><span class="op">(</span>guide <span class="op">=</span> <span class="cn">FALSE</span><span class="op">)</span> <span class="op">+</span>
+  <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/labs.html" class="external-link">labs</a></span><span class="op">(</span>title <span class="op">=</span> <span class="st">"Rent and mortgage affordability indices, 2015"</span>,
        x <span class="op">=</span> <span class="st">""</span>,
        y <span class="op">=</span> <span class="st">"Value"</span>,
        caption <span class="op">=</span> <span class="st">"Data courtesy Baltimore Neighborhood Indicators Alliance Vital Signs, 2015"</span><span class="op">)</span></code></pre></div>
 <p><img src="reference/figures/README-vital_signs-1.png" width="100%"></p>
 <p>Note that all BNIA Vital Signs Indicators are available for all years. The <code>vital_signs_indicators</code> provides labels, definitions, and the years available for all BNIA Vital Signs.</p>
 <div class="sourceCode" id="cb4"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span class="fu"><a href="https://pillar.r-lib.org/reference/glimpse.html">glimpse</a></span><span class="op">(</span><span class="va">vital_signs_indicators</span><span class="op">)</span>
+<code class="sourceCode R"><span class="fu"><a href="https://dplyr.tidyverse.org/reference/glimpse.html" class="external-link">glimpse</a></span><span class="op">(</span><span class="va">vital_signs_indicators</span><span class="op">)</span>
 <span class="co">#&gt; Rows: 177</span>
 <span class="co">#&gt; Columns: 7</span>
 <span class="co">#&gt; $ label                &lt;chr&gt; "Total Population", "Total Male Population", "Tot…</span>
@@ -139,29 +134,43 @@
 
   <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">
     <div class="license">
-<h2>License</h2>
+<h2 data-toc-skip>License</h2>
 <ul class="list-unstyled">
 <li><a href="LICENSE.html">Full license</a></li>
 <li><small>CC0</small></li>
 </ul>
 </div>
-<div class="developers">
-<h2>Developers</h2>
+
+
+<div class="citation">
+<h2 data-toc-skip>Citation</h2>
 <ul class="list-unstyled">
-<li>The package maintainer <br><small class="roles"> Maintainer </small>  </li>
+<li><a href="authors.html#citation">Citing baltimoredata</a></li>
 </ul>
 </div>
+
+<div class="developers">
+<h2 data-toc-skip>Developers</h2>
+<ul class="list-unstyled">
+<li>Eli Pousson <br><small class="roles"> Author, maintainer </small> <a href="https://orcid.org/0000-0001-8280-1706" target="orcid.widget" aria-label="ORCID" class="external-link"><span class="fab fa-orcid orcid" aria-hidden="true"></span></a> </li>
+</ul>
+</div>
+
+
 
   </div>
 </div>
 
 
       <footer><div class="copyright">
-  <p>Developed by The package maintainer.</p>
+  <p></p>
+<p>Developed by Eli Pousson.</p>
 </div>
 
 <div class="pkgdown">
-  <p>Made with <a href="https://pkgdown.r-lib.org/">pkgdown</a> 1.6.1, using <a href="https://preferably.amirmasoudabdol.name/?source=footer">preferably</a> template.</p>
+  <p></p>
+<p>Site built with <a href="https://pkgdown.r-lib.org/" class="external-link">pkgdown</a> 2.0.2.</p>
+  <p class="preferably">Using <a href="https://preferably.amirmasoudabdol.name/?source=footer" class="external-link">preferably</a> template.</p>
 </div>
 
       </footer>
@@ -169,6 +178,8 @@
 
   
 
+
+  
 
   </body>
 </html>

@@ -1,14 +1,15 @@
 Package: baltimoredata
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Access Updated and Historic Data on Baltimore City, Maryland
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
+Authors@R: 
+    person("Eli", "Pousson", , "eli.pousson@gmail.com", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0001-8280-1706"))
+Description: This package provides access to a small number of spatial and
+    nonspatial datasets related to Baltimore City, Maryland.
 License: CC0
 Encoding: UTF-8
 LazyData: true
 Depends: 
     R (>= 2.10)
-RoxygenNote: 7.1.1.9000
+RoxygenNote: 7.1.2
