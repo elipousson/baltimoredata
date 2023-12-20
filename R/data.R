@@ -41,3 +41,28 @@
 #'}
 #' @source \url{https://bniajfi.org/vital_signs/}
 "vital_signs_2010_2018"
+
+#' Baltimore City Entity Reference
+#'
+#' Excerpted from the Baltimore City Entity Reference Airtable base this data
+#' includes a listing of agencies, quasi-public agencies, commissions, Mayoral
+#' offices, and divisions/offices (incomplete for all agencies).
+#'
+#' @format A data frame with 345 rows and 14 variables:
+#' \describe{
+#'   \item{\code{name}}{Entity name}
+#'   \item{\code{short_name}}{Short name}
+#'   \item{\code{acronym}}{Acronym}
+#'   \item{\code{start_year}}{Start year}
+#'   \item{\code{status}}{Status}
+#'   \item{\code{level}}{Level}
+#'   \item{\code{entity_url}}{Entity URL}
+#'   \item{\code{entity_type}}{Entity type}
+#'   \item{\code{entity_categories}}{Entity categories}
+#'   \item{\code{parent_entity}}{Parent entity}
+#'   \item{\code{supporting_entity}}{Supporting entity}
+#'   \item{\code{supporting_unit}}{Supporting unit}
+#'   \item{\code{airtable_record_id}}{Airtable record ID}
+#'   \item{\code{last_modified}}{Last modified date/time}
+#'}
+"entity_reference"
