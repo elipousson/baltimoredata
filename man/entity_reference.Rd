@@ -5,7 +5,7 @@
 \alias{entity_reference}
 \title{Baltimore City Entity Reference}
 \format{
-A data frame with 345 rows and 14 variables:
+A data frame with 354 rows and 18 variables:
 \describe{
   \item{\code{name}}{Entity name}
   \item{\code{name_short}}{Short name}

@@ -48,7 +48,7 @@
 #' includes a listing of agencies, quasi-public agencies, commissions, Mayoral
 #' offices, and divisions/offices (incomplete for all agencies).
 #'
-#' @format A data frame with 345 rows and 14 variables:
+#' @format A data frame with 354 rows and 18 variables:
 #' \describe{
 #'   \item{\code{name}}{Entity name}
 #'   \item{\code{name_short}}{Short name}
