@@ -57,6 +57,12 @@ entity_reference_source <- rairtable::list_records(
 
 entity_reference <- entity_reference_source |>
   janitor::clean_names() |>
+  dplyr::mutate(
+    common_abbreviation = dplyr::coalesce(
+      common_abbreviation,
+      acronym
+    )
+  ) |>
   dplyr::select(
     name,
     name_short = short_name,

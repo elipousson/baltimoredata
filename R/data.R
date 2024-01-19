@@ -70,3 +70,62 @@
 #'   \item{\code{last_modified}}{Last modified date/time}
 #'}
 "entity_reference"
+
+#' Baltimore City and Regional Plans
+#'
+#' Table from the Baltimore City and Regional Plans Airtable base:
+#' https://airtable.com/appC0OOaNJtKU6iHz/shrIb0577rFcNI6vj
+#'
+#' This base is an index for community plans, park plans, transportation plans,
+#' and related reports or studies for Baltimore City, adjacent counties, and the
+#' Baltimore metro area.
+#'
+#' The goal is to provide a convenient and accessible reference to information
+#' plans include: what the scope and related locations for the plan, when the
+#' plan was published or adopted, who prepared the plan, and any programs
+#' connected to the plan. This data is the **plans** table including plans,
+#' studies, reports, etc.
+#'
+#' Last updated: 2024-01-19
+#'
+#' @format A data frame with 314 rows and 36 variables:
+#' \describe{
+#'   \item{\code{airtable_record_id}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{createdTime}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{title}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{site_url}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{document_type}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{year_adopted}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{status}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{geography}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{location_names}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{county}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{Last Modified}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{Created}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{created_date}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{record_id}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{topic}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{program}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{source}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{prepared_for}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{date}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{name_short}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{document_url}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{cover}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{notes}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{prepared_by}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{name_abb}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{status_organization}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{layer_name}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{funded_by}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{flag}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{status_date}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{topics}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{update_year}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{doc_pg_count}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{short_description}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{based_on}}{character COLUMN_DESCRIPTION}
+#'   \item{\code{regulatory_status}}{character COLUMN_DESCRIPTION}
+#'}
+#' @details DETAILS
+"city_plans"
