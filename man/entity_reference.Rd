@@ -7,24 +7,24 @@
 \format{
 A data frame with 354 rows and 18 variables:
 \describe{
-  \item{\code{name}}{Entity name}
-  \item{\code{name_short}}{Short name}
-  \item{\code{name_abb}}{Abbreviated name}
-  \item{\code{name_alt}}{Alternate name or names}
-  \item{\code{start_year}}{Start year}
-  \item{\code{status}}{Status}
-  \item{\code{level}}{Level}
-  \item{\code{entity_url}}{Entity URL}
-  \item{\code{entity_categories}}{Entity categories}
-  \item{\code{entity_type}}{Entity type}
-  \item{\code{unit_type}}{Unit type}
-  \item{\code{parent_entity}}{Parent entity}
-  \item{\code{supporting_entity}}{Supporting entity}
-  \item{\code{supporting_unit}}{Supporting unit}
-  \item{\code{superseded_by}}{Superseded by}
-  \item{\code{wikidata}}{Wikidata}
-  \item{\code{airtable_record_id}}{Airtable record ID}
-  \item{\code{last_modified}}{Last modified date/time}
+\item{\code{name}}{Entity name}
+\item{\code{name_short}}{Short name}
+\item{\code{name_abb}}{Abbreviated name}
+\item{\code{name_alt}}{Alternate name or names}
+\item{\code{start_year}}{Start year}
+\item{\code{status}}{Status}
+\item{\code{level}}{Level}
+\item{\code{entity_url}}{Entity URL}
+\item{\code{entity_categories}}{Entity categories}
+\item{\code{entity_type}}{Entity type}
+\item{\code{unit_type}}{Unit type}
+\item{\code{parent_entity}}{Parent entity}
+\item{\code{supporting_entity}}{Supporting entity}
+\item{\code{supporting_unit}}{Supporting unit}
+\item{\code{superseded_by}}{Superseded by}
+\item{\code{wikidata}}{Wikidata}
+\item{\code{airtable_record_id}}{Airtable record ID}
+\item{\code{last_modified}}{Last modified date/time}
 }
 }
 \usage{

@@ -7,12 +7,12 @@
 \format{
 A data frame with 62552 rows and 9 variables:
 \describe{
-  \item{\code{csa2010}}{Community Statistical Area name}
-  \item{\code{year}}{Vital Signs year}
-  \item{\code{indicator}}{Indicator name}
-  \item{\code{value}}{Value of indicator}
-  \item{\code{label}}{Indicator label}
-  \item{\code{section}}{Vital Signs section, matching one of eight topic areas}
+\item{\code{csa2010}}{Community Statistical Area name}
+\item{\code{year}}{Vital Signs year}
+\item{\code{indicator}}{Indicator name}
+\item{\code{value}}{Value of indicator}
+\item{\code{label}}{Indicator label}
+\item{\code{section}}{Vital Signs section, matching one of eight topic areas}
 }
 }
 \source{
@@ -33,7 +33,7 @@ The source file contained the full name of the indicator, values for
 Baltimore City and all 55 of the Community Statistical Areas (CSAs). Due to
 COVID-19, the publication of the Vital Signs 18 indicators has been staggered
 and this data does not yet contain full housing or education data. CSAs with
-missing data in the Excel file appear as `NA` values in this dataset.
+missing data in the Excel file appear as \code{NA} values in this dataset.
 }
 \seealso{
 \href{https://vital-signs-bniajfi.hub.arcgis.com/}{BNIA Vital Signs Open Data Portal}

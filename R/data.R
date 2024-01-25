@@ -4,15 +4,15 @@
 #'   to 2018.
 #' @format A data frame with 177 rows and 7 variables:
 #' \describe{
-#'   \item{\code{label}}{Indicator label}
-#'   \item{\code{section}}{Vital Signs report section}
-#'   \item{\code{source}}{Indicator data source}
-#'   \item{\code{normalization_source}}{Normalization data source, e.g. Census data for CSA residents}
-#'   \item{\code{definition}}{Indicator definition}
-#'   \item{\code{indicator}}{Indicator variable name}
-#'   \item{\code{years_available}}{Years available}
+#'   \item{`label`}{Indicator label}
+#'   \item{`section`}{Vital Signs report section}
+#'   \item{`source`}{Indicator data source}
+#'   \item{`normalization_source`}{Normalization data source, e.g. Census data for CSA residents}
+#'   \item{`definition`}{Indicator definition}
+#'   \item{`indicator`}{Indicator variable name}
+#'   \item{`years_available`}{Years available}
 #'}
-#' @source \url{https://bniajfi.org/vital_signs/}
+#' @source <https://bniajfi.org/vital_signs/>
 "vital_signs_indicators"
 
 #' BNIA Vital Signs, 2010-2018
@@ -29,17 +29,17 @@
 #' and this data does not yet contain full housing or education data. CSAs with
 #' missing data in the Excel file appear as `NA` values in this dataset.
 #' @seealso
-#'   \href{https://vital-signs-bniajfi.hub.arcgis.com/}{BNIA Vital Signs Open Data Portal}
+#'   [BNIA Vital Signs Open Data Portal](https://vital-signs-bniajfi.hub.arcgis.com/)
 #' @format A data frame with 62552 rows and 9 variables:
 #' \describe{
-#'   \item{\code{csa2010}}{Community Statistical Area name}
-#'   \item{\code{year}}{Vital Signs year}
-#'   \item{\code{indicator}}{Indicator name}
-#'   \item{\code{value}}{Value of indicator}
-#'   \item{\code{label}}{Indicator label}
-#'   \item{\code{section}}{Vital Signs section, matching one of eight topic areas}
+#'   \item{`csa2010`}{Community Statistical Area name}
+#'   \item{`year`}{Vital Signs year}
+#'   \item{`indicator`}{Indicator name}
+#'   \item{`value`}{Value of indicator}
+#'   \item{`label`}{Indicator label}
+#'   \item{`section`}{Vital Signs section, matching one of eight topic areas}
 #'}
-#' @source \url{https://bniajfi.org/vital_signs/}
+#' @source <https://bniajfi.org/vital_signs/>
 "vital_signs_2010_2018"
 
 #' Baltimore City Entity Reference
@@ -50,24 +50,24 @@
 #'
 #' @format A data frame with 354 rows and 18 variables:
 #' \describe{
-#'   \item{\code{name}}{Entity name}
-#'   \item{\code{name_short}}{Short name}
-#'   \item{\code{name_abb}}{Abbreviated name}
-#'   \item{\code{name_alt}}{Alternate name or names}
-#'   \item{\code{start_year}}{Start year}
-#'   \item{\code{status}}{Status}
-#'   \item{\code{level}}{Level}
-#'   \item{\code{entity_url}}{Entity URL}
-#'   \item{\code{entity_categories}}{Entity categories}
-#'   \item{\code{entity_type}}{Entity type}
-#'   \item{\code{unit_type}}{Unit type}
-#'   \item{\code{parent_entity}}{Parent entity}
-#'   \item{\code{supporting_entity}}{Supporting entity}
-#'   \item{\code{supporting_unit}}{Supporting unit}
-#'   \item{\code{superseded_by}}{Superseded by}
-#'   \item{\code{wikidata}}{Wikidata}
-#'   \item{\code{airtable_record_id}}{Airtable record ID}
-#'   \item{\code{last_modified}}{Last modified date/time}
+#'   \item{`name`}{Entity name}
+#'   \item{`name_short`}{Short name}
+#'   \item{`name_abb`}{Abbreviated name}
+#'   \item{`name_alt`}{Alternate name or names}
+#'   \item{`start_year`}{Start year}
+#'   \item{`status`}{Status}
+#'   \item{`level`}{Level}
+#'   \item{`entity_url`}{Entity URL}
+#'   \item{`entity_categories`}{Entity categories}
+#'   \item{`entity_type`}{Entity type}
+#'   \item{`unit_type`}{Unit type}
+#'   \item{`parent_entity`}{Parent entity}
+#'   \item{`supporting_entity`}{Supporting entity}
+#'   \item{`supporting_unit`}{Supporting unit}
+#'   \item{`superseded_by`}{Superseded by}
+#'   \item{`wikidata`}{Wikidata}
+#'   \item{`airtable_record_id`}{Airtable record ID}
+#'   \item{`last_modified`}{Last modified date/time}
 #'}
 "entity_reference"
 
@@ -86,46 +86,42 @@
 #' connected to the plan. This data is the **plans** table including plans,
 #' studies, reports, etc.
 #'
-#' Last updated: 2024-01-19
+#' Last updated: 2024-01-25
 #'
-#' @format A data frame with 314 rows and 36 variables:
+#' @format A data frame with 322 rows and 32 variables:
 #' \describe{
-#'   \item{\code{airtable_record_id}}{character COLUMN_DESCRIPTION}
-#'   \item{\code{createdTime}}{character COLUMN_DESCRIPTION}
-#'   \item{\code{title}}{character COLUMN_DESCRIPTION}
-#'   \item{\code{site_url}}{character COLUMN_DESCRIPTION}
-#'   \item{\code{document_type}}{character COLUMN_DESCRIPTION}
-#'   \item{\code{year_adopted}}{character COLUMN_DESCRIPTION}
-#'   \item{\code{status}}{character COLUMN_DESCRIPTION}
-#'   \item{\code{geography}}{character COLUMN_DESCRIPTION}
-#'   \item{\code{location_names}}{character COLUMN_DESCRIPTION}
-#'   \item{\code{county}}{character COLUMN_DESCRIPTION}
-#'   \item{\code{Last Modified}}{character COLUMN_DESCRIPTION}
-#'   \item{\code{Created}}{character COLUMN_DESCRIPTION}
-#'   \item{\code{created_date}}{character COLUMN_DESCRIPTION}
-#'   \item{\code{record_id}}{character COLUMN_DESCRIPTION}
-#'   \item{\code{topic}}{character COLUMN_DESCRIPTION}
-#'   \item{\code{program}}{character COLUMN_DESCRIPTION}
-#'   \item{\code{source}}{character COLUMN_DESCRIPTION}
-#'   \item{\code{prepared_for}}{character COLUMN_DESCRIPTION}
-#'   \item{\code{date}}{character COLUMN_DESCRIPTION}
-#'   \item{\code{name_short}}{character COLUMN_DESCRIPTION}
-#'   \item{\code{document_url}}{character COLUMN_DESCRIPTION}
-#'   \item{\code{cover}}{character COLUMN_DESCRIPTION}
-#'   \item{\code{notes}}{character COLUMN_DESCRIPTION}
-#'   \item{\code{prepared_by}}{character COLUMN_DESCRIPTION}
-#'   \item{\code{name_abb}}{character COLUMN_DESCRIPTION}
-#'   \item{\code{status_organization}}{character COLUMN_DESCRIPTION}
-#'   \item{\code{layer_name}}{character COLUMN_DESCRIPTION}
-#'   \item{\code{funded_by}}{character COLUMN_DESCRIPTION}
-#'   \item{\code{flag}}{character COLUMN_DESCRIPTION}
-#'   \item{\code{status_date}}{character COLUMN_DESCRIPTION}
-#'   \item{\code{topics}}{character COLUMN_DESCRIPTION}
-#'   \item{\code{update_year}}{character COLUMN_DESCRIPTION}
-#'   \item{\code{doc_pg_count}}{character COLUMN_DESCRIPTION}
-#'   \item{\code{short_description}}{character COLUMN_DESCRIPTION}
-#'   \item{\code{based_on}}{character COLUMN_DESCRIPTION}
-#'   \item{\code{regulatory_status}}{character COLUMN_DESCRIPTION}
+#'   \item{`title`}{Plan title}
+#'   \item{`year_adopted`}{Year adopted/completed}
+#'   \item{`update_year`}{Year updated}
+#'   \item{`date`}{Date (may be approximate)}
+#'   \item{`status`}{Current status}
+#'   \item{`document_url`}{Document URL}
+#'   \item{`site_url`}{Related site URL}
+#'   \item{`geography`}{Geography}
+#'   \item{`document_type`}{Document type}
+#'   \item{`program`}{Related program}
+#'   \item{`prepared_for`}{Entity or entities prepared for}
+#'   \item{`prepared_by`}{Entity or entities prepared by}
+#'   \item{`funded_by`}{Entity or entities funded by}
+#'   \item{`location_names`}{Location names}
+#'   \item{`county`}{County name}
+#'   \item{`main_topic`}{Main topic}
+#'   \item{`topics`}{Topics}
+#'   \item{`name_abb`}{Name abbreviation}
+#'   \item{`name_short`}{Short name}
+#'   \item{`title_alt`}{Alternate title for spatial data join}
+#'   \item{`short_description`}{Short document description}
+#'   \item{`document_page_count`}{Page count}
+#'   \item{`document_url_type`}{Page count}
+#'   \item{`status_organization`}{Entity assigning status}
+#'   \item{`status_date`}{Status assignment date}
+#'   \item{`status_regulatory`}{Regulatory status}
+#'   \item{`source`}{Document source}
+#'   \item{`based_on`}{Documents based on}
+#'   \item{`notes`}{Notes}
+#'   \item{`created_date`}{Airtable record created date/time}
+#'   \item{`last_modified`}{Airtable record last modified date/time}
+#'   \item{`record_id`}{Airtable record identifier}
 #'}
-#' @details DETAILS
-"city_plans"
+#' @source <https://airtable.com/appC0OOaNJtKU6iHz/shrIb0577rFcNI6vj>
+"baltimore_plans"
