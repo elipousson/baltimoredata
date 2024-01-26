@@ -5,12 +5,12 @@
 \alias{baltimore_plans}
 \title{Baltimore City and Regional Plans}
 \format{
-A data frame with 322 rows and 32 variables:
+A data frame with 337 rows and 32 variables:
 \describe{
 \item{\code{title}}{Plan title}
-\item{\code{year_adopted}}{Year adopted/completed}
-\item{\code{update_year}}{Year updated}
-\item{\code{date}}{Date (may be approximate)}
+\item{\code{year_complete}}{Year adopted/completed}
+\item{\code{year_update}}{Year updated}
+\item{\code{date_complete}}{Date (may be approximate)}
 \item{\code{status}}{Current status}
 \item{\code{document_url}}{Document URL}
 \item{\code{site_url}}{Related site URL}
@@ -31,10 +31,11 @@ A data frame with 322 rows and 32 variables:
 \item{\code{document_page_count}}{Page count}
 \item{\code{document_url_type}}{Page count}
 \item{\code{status_organization}}{Entity assigning status}
-\item{\code{status_date}}{Status assignment date}
+\item{\code{year_status}}{Status assignment date}
+\item{\code{date_status}}{Status assignment date}
 \item{\code{status_regulatory}}{Regulatory status}
 \item{\code{source}}{Document source}
-\item{\code{based_on}}{Documents based on}
+\item{\code{related_plans}}{Related plans (typically a preceding plan in a sequence of related plans)}
 \item{\code{notes}}{Notes}
 \item{\code{created_date}}{Airtable record created date/time}
 \item{\code{last_modified}}{Airtable record last modified date/time}

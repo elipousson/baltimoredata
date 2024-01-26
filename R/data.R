@@ -88,12 +88,12 @@
 #'
 #' Last updated: 2024-01-25
 #'
-#' @format A data frame with 322 rows and 32 variables:
+#' @format A data frame with 337 rows and 32 variables:
 #' \describe{
 #'   \item{`title`}{Plan title}
-#'   \item{`year_adopted`}{Year adopted/completed}
-#'   \item{`update_year`}{Year updated}
-#'   \item{`date`}{Date (may be approximate)}
+#'   \item{`year_complete`}{Year adopted/completed}
+#'   \item{`year_update`}{Year updated}
+#'   \item{`date_complete`}{Date (may be approximate)}
 #'   \item{`status`}{Current status}
 #'   \item{`document_url`}{Document URL}
 #'   \item{`site_url`}{Related site URL}
@@ -114,10 +114,11 @@
 #'   \item{`document_page_count`}{Page count}
 #'   \item{`document_url_type`}{Page count}
 #'   \item{`status_organization`}{Entity assigning status}
-#'   \item{`status_date`}{Status assignment date}
+#'   \item{`year_status`}{Status assignment date}
+#'   \item{`date_status`}{Status assignment date}
 #'   \item{`status_regulatory`}{Regulatory status}
 #'   \item{`source`}{Document source}
-#'   \item{`based_on`}{Documents based on}
+#'   \item{`related_plans`}{Related plans (typically a preceding plan in a sequence of related plans)}
 #'   \item{`notes`}{Notes}
 #'   \item{`created_date`}{Airtable record created date/time}
 #'   \item{`last_modified`}{Airtable record last modified date/time}
