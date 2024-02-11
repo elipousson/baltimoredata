@@ -51,7 +51,9 @@ crosswalks_list |>
   jsonlite::write_json("inst/extdata/crosswalks.json")
 
 entity_reference_source <- rairtable::list_records(
-  url = "https://airtable.com/appJ92OybyLWmOqLh/tblgKp8tPh0BtgB1e/viwJsYeLTUq0dlTmg?blocks=hide",
+  base = "appJ92OybyLWmOqLh",
+  table = "tblgKp8tPh0BtgB1e",
+  # url = "https://airtable.com//viwJsYeLTUq0dlTmg?blocks=hide",
   cell_format = "string"
 )
 
@@ -70,6 +72,7 @@ entity_reference <- entity_reference_source |>
     name_alt = alternate_names,
     # acronym,
     start_year = year_established_authorized,
+    end_year,
     status,
     level,
     entity_url,
@@ -81,7 +84,9 @@ entity_reference <- entity_reference_source |>
     supporting_unit,
     superseded_by,
     wikidata,
+    ein,
     airtable_record_id,
+    sources,
     last_modified
   )
 

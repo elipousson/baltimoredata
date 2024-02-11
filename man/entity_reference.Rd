@@ -5,13 +5,14 @@
 \alias{entity_reference}
 \title{Baltimore City Entity Reference}
 \format{
-A data frame with 354 rows and 18 variables:
+A data frame with 354 rows and 21 variables:
 \describe{
 \item{\code{name}}{Entity name}
 \item{\code{name_short}}{Short name}
 \item{\code{name_abb}}{Abbreviated name}
 \item{\code{name_alt}}{Alternate name or names}
 \item{\code{start_year}}{Start year}
+\item{\code{end_year}}{End year}
 \item{\code{status}}{Status}
 \item{\code{level}}{Level}
 \item{\code{entity_url}}{Entity URL}
@@ -23,7 +24,9 @@ A data frame with 354 rows and 18 variables:
 \item{\code{supporting_unit}}{Supporting unit}
 \item{\code{superseded_by}}{Superseded by}
 \item{\code{wikidata}}{Wikidata}
+\item{\code{ein}}{EIN}
 \item{\code{airtable_record_id}}{Airtable record ID}
+\item{\code{sources}}{Sources}
 \item{\code{last_modified}}{Last modified date/time}
 }
 }
@@ -34,5 +37,8 @@ entity_reference
 Excerpted from the Baltimore City Entity Reference Airtable base this data
 includes a listing of agencies, quasi-public agencies, commissions, Mayoral
 offices, and divisions/offices (incomplete for all agencies).
+}
+\details{
+Last updated: 2024-02-10
 }
 \keyword{datasets}

@@ -48,13 +48,16 @@
 #' includes a listing of agencies, quasi-public agencies, commissions, Mayoral
 #' offices, and divisions/offices (incomplete for all agencies).
 #'
-#' @format A data frame with 354 rows and 18 variables:
+#' Last updated: 2024-02-10
+#'
+#' @format A data frame with 354 rows and 21 variables:
 #' \describe{
 #'   \item{`name`}{Entity name}
 #'   \item{`name_short`}{Short name}
 #'   \item{`name_abb`}{Abbreviated name}
 #'   \item{`name_alt`}{Alternate name or names}
 #'   \item{`start_year`}{Start year}
+#'   \item{`end_year`}{End year}
 #'   \item{`status`}{Status}
 #'   \item{`level`}{Level}
 #'   \item{`entity_url`}{Entity URL}
@@ -66,7 +69,9 @@
 #'   \item{`supporting_unit`}{Supporting unit}
 #'   \item{`superseded_by`}{Superseded by}
 #'   \item{`wikidata`}{Wikidata}
+#'   \item{`ein`}{EIN}
 #'   \item{`airtable_record_id`}{Airtable record ID}
+#'   \item{`sources`}{Sources}
 #'   \item{`last_modified`}{Last modified date/time}
 #'}
 "entity_reference"
@@ -86,9 +91,9 @@
 #' connected to the plan. This data is the **plans** table including plans,
 #' studies, reports, etc.
 #'
-#' Last updated: 2024-01-25
+#' Last updated: 2024-02-10
 #'
-#' @format A data frame with 337 rows and 32 variables:
+#' @format A data frame with 343 rows and 35 variables:
 #' \describe{
 #'   \item{`title`}{Plan title}
 #'   \item{`year_complete`}{Year adopted/completed}
@@ -96,6 +101,8 @@
 #'   \item{`date_complete`}{Date (may be approximate)}
 #'   \item{`status`}{Current status}
 #'   \item{`document_url`}{Document URL}
+#'   \item{`document_filename`}{Document URL}
+#'   \item{`document_cover_filename`}{Document URL}
 #'   \item{`site_url`}{Related site URL}
 #'   \item{`geography`}{Geography}
 #'   \item{`document_type`}{Document type}
