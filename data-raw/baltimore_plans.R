@@ -2,6 +2,10 @@
 
 library(dplyr)
 
+url <- "https://docs.google.com/spreadsheets/d/1TeJjIk4TLlZWWLXkVug4dRuo3Dldh11I0Hzheh6rYQw/edit?usp=sharing"
+
+plans_xwalk <- googlesheets4::read_sheet(url)
+
 url <- "https://airtable.com/appC0OOaNJtKU6iHz/tblT7aZvpGeoFTG02/viwOB8OC0IR0kODqu?blocks=hide"
 
 baltimore_plans_model <- rairtable::get_table_model(
@@ -12,20 +16,47 @@ baltimore_plans_model <- rairtable::get_table_model(
 baltimore_plans_src <- rairtable::list_records(
   url = url,
   cell_format = "string",
-  model = baltimore_plans_model
+  model = baltimore_plans_model,
+  simplifyVector = FALSE
   )
 
+baltimore_plans_src |>
+  yaml::write_yaml("baltimore_plans.yml")
+
+baltimore_plans_src <- rairtable::list_records(
+  url = url,
+  cell_format = "string",
+  model = baltimore_plans_model,
+  simplifyVector = TRUE
+)
+
+# yaml::read_
+
 baltimore_plans <- baltimore_plans_src |>
-  select(
-    !c(document_cover, createdTime, airtable_record_id, flag)
-  ) |>
   janitor::clean_names() |>
   mutate(
     title_alt = stringr::str_trim(stringr::str_squish(title_alt)),
     title = stringr::str_trim(stringr::str_squish(title))#,
     # plan_name = coalesce(name_join, title)
+  ) |>
+  mutate(
+    document_filename = basename(document_url),
+    document_cover_filename = str_trim(
+      str_extract(
+        document_cover,
+        ".+(?=\\()"
+      )
+    ),
+    .after = document_url
+  ) |>
+  select(
+    !c(document_cover, created_time, airtable_record_id, flag)
   )
-#
+
+baltimore_plans |>
+  readr::write_csv("baltimore_plans.csv")
+
+
 #
 # mapbaltimore::adopted_plans |>
 #   mutate(

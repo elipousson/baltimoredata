@@ -5,7 +5,7 @@
 \alias{baltimore_plans}
 \title{Baltimore City and Regional Plans}
 \format{
-A data frame with 337 rows and 32 variables:
+A data frame with 343 rows and 35 variables:
 \describe{
 \item{\code{title}}{Plan title}
 \item{\code{year_complete}}{Year adopted/completed}
@@ -13,6 +13,8 @@ A data frame with 337 rows and 32 variables:
 \item{\code{date_complete}}{Date (may be approximate)}
 \item{\code{status}}{Current status}
 \item{\code{document_url}}{Document URL}
+\item{\code{document_filename}}{Document URL}
+\item{\code{document_cover_filename}}{Document URL}
 \item{\code{site_url}}{Related site URL}
 \item{\code{geography}}{Geography}
 \item{\code{document_type}}{Document type}
@@ -63,6 +65,6 @@ plan was published or adopted, who prepared the plan, and any programs
 connected to the plan. This data is the \strong{plans} table including plans,
 studies, reports, etc.
 
-Last updated: 2024-01-25
+Last updated: 2024-02-10
 }
 \keyword{datasets}
