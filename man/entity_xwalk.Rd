@@ -5,7 +5,7 @@
 \alias{entity_xwalk}
 \title{Baltimore City Entity Crosswalk}
 \format{
-A data frame with 360 rows and 5 variables:
+A data frame with 375 rows and 5 variables:
 \describe{
 \item{\code{id}}{Identifier ID}
 \item{\code{name}}{Identifier name}

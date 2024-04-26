@@ -5,7 +5,7 @@
 \alias{entity_reference}
 \title{Baltimore City Entity Reference}
 \format{
-A data frame with 381 rows and 21 variables:
+A data frame with 384 rows and 21 variables:
 \describe{
 \item{\code{name}}{Entity name}
 \item{\code{name_short}}{Short name}
@@ -39,6 +39,6 @@ includes a listing of agencies, quasi-public agencies, commissions, Mayoral
 offices, and divisions/offices (incomplete for all agencies).
 }
 \details{
-Last updated: 2024-04-24
+Last updated: 2024-04-25
 }
 \keyword{datasets}
