@@ -76,6 +76,21 @@
 #'}
 "entity_reference"
 
+
+#' Baltimore City Entity Crosswalk
+#'
+#' Last updated: 2024-04-25
+#'
+#' @format A data frame with 360 rows and 5 variables:
+#' \describe{
+#'   \item{`id`}{Identifier ID}
+#'   \item{`name`}{Identifier name}
+#'   \item{`entity`}{Entity name}
+#'   \item{`source`}{Crosswalk data source}
+#'   \item{`use`}{Usage status}
+#'}
+"entity_xwalk"
+
 #' Baltimore City and Regional Plans
 #'
 #' Table from the Baltimore City and Regional Plans Airtable base:

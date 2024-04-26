@@ -91,3 +91,17 @@ entity_reference <- entity_reference_source |>
   )
 
 usethis::use_data(entity_reference, overwrite = TRUE)
+
+
+entity_xwalk <- rairtable::list_records(
+  url = "https://airtable.com/app1lcJCwi0mpQGqZ/tbl81zsVzjBxVZePB/viwlrhbxPrDasYqzp?blocks=hide",
+  cell_format = "string"
+)
+
+entity_xwalk <- entity_xwalk |>
+  dplyr::select(
+    id, name, entity, source, use
+  )
+
+
+usethis::use_data(entity_xwalk, overwrite = TRUE)
