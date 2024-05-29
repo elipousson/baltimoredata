@@ -1,36 +1,33 @@
 ## code to prepare `city_plans` dataset goes here
 
-library(dplyr)
+library(tidyverse)
 
 url <- "https://docs.google.com/spreadsheets/d/1TeJjIk4TLlZWWLXkVug4dRuo3Dldh11I0Hzheh6rYQw/edit?usp=sharing"
 
 plans_xwalk <- googlesheets4::read_sheet(url)
 
-url <- "https://airtable.com/appC0OOaNJtKU6iHz/tblT7aZvpGeoFTG02/viwOB8OC0IR0kODqu?blocks=hide"
+plans_url <- "https://airtable.com/appC0OOaNJtKU6iHz/tblT7aZvpGeoFTG02/viwOB8OC0IR0kODqu?blocks=hide"
 
 baltimore_plans_model <- rairtable::get_table_model(
   base = "appC0OOaNJtKU6iHz",
   table = "tblT7aZvpGeoFTG02"
 )
 
-baltimore_plans_src <- rairtable::list_records(
-  url = url,
+baltimore_plans_yml_src <- rairtable::list_records(
+  url = plans_url,
   cell_format = "string",
   model = baltimore_plans_model,
   simplifyVector = FALSE
-  )
+)
 
-baltimore_plans_src |>
+baltimore_plans_yml_src |>
   yaml::write_yaml("baltimore_plans.yml")
 
 baltimore_plans_src <- rairtable::list_records(
-  url = url,
+  url = plans_url,
   cell_format = "string",
-  model = baltimore_plans_model,
-  simplifyVector = TRUE
+  model = baltimore_plans_model
 )
-
-# yaml::read_
 
 baltimore_plans <- baltimore_plans_src |>
   janitor::clean_names() |>

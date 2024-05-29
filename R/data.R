@@ -48,9 +48,9 @@
 #' includes a listing of agencies, quasi-public agencies, commissions, Mayoral
 #' offices, and divisions/offices (incomplete for all agencies).
 #'
-#' Last updated: 2024-04-25
+#' Last updated: 2024-05-29
 #'
-#' @format A data frame with 384 rows and 21 variables:
+#' @format A data frame with 385 rows and 21 variables:
 #' \describe{
 #'   \item{`name`}{Entity name}
 #'   \item{`name_short`}{Short name}
@@ -106,9 +106,9 @@
 #' connected to the plan. This data is the **plans** table including plans,
 #' studies, reports, etc.
 #'
-#' Last updated: 2024-04-24
+#' Last updated: 2024-05-29
 #'
-#' @format A data frame with 351 rows and 36 variables:
+#' @format A data frame with 354 rows and 36 variables:
 #' \describe{
 #'   \item{`title`}{Plan title}
 #'   \item{`year_complete`}{Year adopted/completed}
