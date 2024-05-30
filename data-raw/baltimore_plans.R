@@ -23,6 +23,13 @@ baltimore_plans_yml_src <- rairtable::list_records(
 baltimore_plans_yml_src |>
   yaml::write_yaml("baltimore_plans.yml")
 
+plans_url <- "https://airtable.com/appC0OOaNJtKU6iHz/tblT7aZvpGeoFTG02/viwOB8OC0IR0kODqu?blocks=hide"
+
+baltimore_plans_model <- rairtable::get_table_model(
+  base = "appC0OOaNJtKU6iHz",
+  table = "tblT7aZvpGeoFTG02"
+)
+
 baltimore_plans_src <- rairtable::list_records(
   url = plans_url,
   cell_format = "string",
