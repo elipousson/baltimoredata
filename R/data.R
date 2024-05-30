@@ -106,7 +106,7 @@
 #' connected to the plan. This data is the **plans** table including plans,
 #' studies, reports, etc.
 #'
-#' Last updated: 2024-05-29
+#' Last updated: 2024-05-30
 #'
 #' @format A data frame with 354 rows and 36 variables:
 #' \describe{
