@@ -48,9 +48,9 @@
 #' includes a listing of agencies, quasi-public agencies, commissions, Mayoral
 #' offices, and divisions/offices (incomplete for all agencies).
 #'
-#' Last updated: 2024-05-29
+#' Last updated: 2024-06-27
 #'
-#' @format A data frame with 385 rows and 21 variables:
+#' @format A data frame with 400 rows and 21 variables:
 #' \describe{
 #'   \item{`name`}{Entity name}
 #'   \item{`name_short`}{Short name}
