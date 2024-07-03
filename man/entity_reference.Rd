@@ -5,7 +5,7 @@
 \alias{entity_reference}
 \title{Baltimore City Entity Reference}
 \format{
-A data frame with 385 rows and 21 variables:
+A data frame with 405 rows and 22 variables:
 \describe{
 \item{\code{name}}{Entity name}
 \item{\code{name_short}}{Short name}
@@ -27,6 +27,7 @@ A data frame with 385 rows and 21 variables:
 \item{\code{ein}}{EIN}
 \item{\code{airtable_record_id}}{Airtable record ID}
 \item{\code{sources}}{Sources}
+\item{\code{establishment_references}}{Establishment references (informal)}
 \item{\code{last_modified}}{Last modified date/time}
 }
 }
@@ -39,6 +40,6 @@ includes a listing of agencies, quasi-public agencies, commissions, Mayoral
 offices, and divisions/offices (incomplete for all agencies).
 }
 \details{
-Last updated: 2024-05-29
+Last updated: 2024-07-02
 }
 \keyword{datasets}

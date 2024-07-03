@@ -48,9 +48,9 @@
 #' includes a listing of agencies, quasi-public agencies, commissions, Mayoral
 #' offices, and divisions/offices (incomplete for all agencies).
 #'
-#' Last updated: 2024-06-27
+#' Last updated: 2024-07-02
 #'
-#' @format A data frame with 400 rows and 21 variables:
+#' @format A data frame with 405 rows and 22 variables:
 #' \describe{
 #'   \item{`name`}{Entity name}
 #'   \item{`name_short`}{Short name}
@@ -72,6 +72,7 @@
 #'   \item{`ein`}{EIN}
 #'   \item{`airtable_record_id`}{Airtable record ID}
 #'   \item{`sources`}{Sources}
+#'   \item{`establishment_references`}{Establishment references (informal)}
 #'   \item{`last_modified`}{Last modified date/time}
 #'}
 "entity_reference"

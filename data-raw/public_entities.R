@@ -87,6 +87,7 @@ entity_reference <- entity_reference_source |>
     ein,
     airtable_record_id,
     sources,
+    establishment_references,
     last_modified
   )
 
