@@ -149,3 +149,31 @@
 #'}
 #' @source <https://airtable.com/appC0OOaNJtKU6iHz/shrIb0577rFcNI6vj>
 "baltimore_plans"
+
+
+#' Maryland State Archives Atlas Maps Index
+#'
+#' An index of digitized atlas maps available from the Maryland State Archives.
+#'
+#' @format A data frame with 786 rows and 17 variables:
+#' \describe{
+#'   \item{`source_id`}{MSA identifier}
+#'   \item{`title`}{Plate or page title}
+#'   \item{`type`}{Plate or page type}
+#'   \item{`sheet_title`}{Sheet title}
+#'   \item{`atlas`}{Atlas reference}
+#'   \item{`file_number`}{File number}
+#'   \item{`html_url`}{URL for HTML gallery page}
+#'   \item{`pdf_url`}{URL for PDF file}
+#'   \item{`filename`}{Filename}
+#'   \item{`year`}{Year (from atlas)}
+#'   \item{`source`}{Source (from atlas)}
+#'   \item{`description`}{Description}
+#'   \item{`locations`}{Locations (incomplete)}
+#'   \item{`page_number`}{Page number}
+#'   \item{`gif_url`}{URL for GIF format file}
+#'   \item{`pdf_right_url`}{URL for PDF file (right side)}
+#'   \item{`pdf_left_url`}{URL for PDF file (left side)}
+#'}
+#' @details <https://airtable.com/appLdXzqz0QOXqJTE/shr8NPkZnJzBLjH9r>
+"msa_atlas_maps"
