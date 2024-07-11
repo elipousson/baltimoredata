@@ -48,9 +48,9 @@
 #' includes a listing of agencies, quasi-public agencies, commissions, Mayoral
 #' offices, and divisions/offices (incomplete for all agencies).
 #'
-#' Last updated: 2024-07-02
+#' Last updated: 2024-07-10
 #'
-#' @format A data frame with 405 rows and 22 variables:
+#' @format A data frame with 407 rows and 22 variables:
 #' \describe{
 #'   \item{`name`}{Entity name}
 #'   \item{`name_short`}{Short name}
@@ -80,9 +80,13 @@
 
 #' Baltimore City Entity Crosswalk
 #'
-#' Last updated: 2024-04-25
+#' Note, that the "Baltimore_City_Employee_Residency_by_Agency" source includes
+#' identifiers and name-only identifiers that match data found in the
+#' "EmployeeSalaries_1" source.
 #'
-#' @format A data frame with 375 rows and 5 variables:
+#' Last updated: 2024-07-10
+#'
+#' @format A data frame with 376 rows and 5 variables:
 #' \describe{
 #'   \item{`id`}{Identifier ID}
 #'   \item{`name`}{Identifier name}
