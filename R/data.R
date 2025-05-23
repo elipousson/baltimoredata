@@ -48,9 +48,9 @@
 #' includes a listing of agencies, quasi-public agencies, commissions, Mayoral
 #' offices, and divisions/offices (incomplete for all agencies).
 #'
-#' Last updated: 2024-07-10
+#' Last updated: 2025-05-22
 #'
-#' @format A data frame with 407 rows and 22 variables:
+#' @format A data frame with 459 rows and 22 variables:
 #' \describe{
 #'   \item{`name`}{Entity name}
 #'   \item{`name_short`}{Short name}
@@ -84,9 +84,9 @@
 #' identifiers and name-only identifiers that match data found in the
 #' "EmployeeSalaries_1" source.
 #'
-#' Last updated: 2024-07-10
+#' Last updated: 2025-05-22
 #'
-#' @format A data frame with 376 rows and 5 variables:
+#' @format A data frame with 502 rows and 5 variables:
 #' \describe{
 #'   \item{`id`}{Identifier ID}
 #'   \item{`name`}{Identifier name}
@@ -111,9 +111,9 @@
 #' connected to the plan. This data is the **plans** table including plans,
 #' studies, reports, etc.
 #'
-#' Last updated: 2024-05-30
+#' Last updated: 2025-05-22
 #'
-#' @format A data frame with 354 rows and 36 variables:
+#' @format A data frame with 366 rows and 36 variables:
 #' \describe{
 #'   \item{`title`}{Plan title}
 #'   \item{`year_complete`}{Year adopted/completed}

@@ -5,7 +5,7 @@
 \alias{entity_xwalk}
 \title{Baltimore City Entity Crosswalk}
 \format{
-A data frame with 376 rows and 5 variables:
+A data frame with 502 rows and 5 variables:
 \describe{
 \item{\code{id}}{Identifier ID}
 \item{\code{name}}{Identifier name}
@@ -23,6 +23,6 @@ identifiers and name-only identifiers that match data found in the
 "EmployeeSalaries_1" source.
 }
 \details{
-Last updated: 2024-07-10
+Last updated: 2025-05-22
 }
 \keyword{datasets}
