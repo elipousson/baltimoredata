@@ -150,6 +150,7 @@
 #'   \item{`created_date`}{Airtable record created date/time}
 #'   \item{`last_modified`}{Airtable record last modified date/time}
 #'   \item{`record_id`}{Airtable record identifier}
+#'   \item{`plan_area_desc`}{Plan area description}
 #'}
 #' @source <https://airtable.com/appC0OOaNJtKU6iHz/shrIb0577rFcNI6vj>
 "baltimore_plans"

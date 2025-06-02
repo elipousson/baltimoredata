@@ -42,6 +42,7 @@ A data frame with 366 rows and 36 variables:
 \item{\code{created_date}}{Airtable record created date/time}
 \item{\code{last_modified}}{Airtable record last modified date/time}
 \item{\code{record_id}}{Airtable record identifier}
+\item{\code{plan_area_desc}}{Plan area description}
 }
 }
 \source{

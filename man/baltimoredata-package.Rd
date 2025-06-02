@@ -11,7 +11,9 @@ This package provides access to a small number of spatial and nonspatial dataset
 \seealso{
 Useful links:
 \itemize{
+  \item \url{https://github.com/elipousson/baltimoredata}
   \item \url{https://elipousson.github.io/baltimoredata/}
+  \item Report bugs at \url{https://github.com/elipousson/baltimoredata/issues}
 }
 
 }
